@@ -13,7 +13,7 @@ vector<Mat*> framesBuffer;
 
 int main(int argc, char** argv) {
     if(argc != 3){
-        printf("\nUsage: ./frameTake [Path/to/input/video] [Path/to/output/folder]\n\n");
+        printf("\nUsage: ./frameExtract [Path/to/input/video] [Path/to/output/folder]\n\n");
         return -1;
     }
 
